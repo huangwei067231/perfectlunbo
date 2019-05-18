@@ -1,0 +1,31 @@
+*{
+    padding:0;margin:0;
+    box-sizing:border-box;
+}
+#window{
+    width: 730px;
+    height:454px;
+    overflow:hidden;
+    margin:10px auto;
+}
+#slides{
+    display: flex;
+    transition: all 1s;
+}
+img{
+    width: 100%;
+}
+#controls{
+    text-align: center;
+    margin: 10px 0px;
+}
+#btn{   
+    text-align: center;
+}
+#btn > button{
+margin:0px 10px;
+padding: 4px 8px;
+border-radius:50%;
+background: #bbb;
+outline:0;
+}
